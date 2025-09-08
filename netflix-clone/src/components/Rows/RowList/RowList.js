@@ -10,7 +10,6 @@ const RowList = () => {
         isLargeRow={true}
       />
       <Row title={"Trending Now"} fetchUrl={requests.fetchTrending} />
-      <Row title={"Upcoming Movies"} fetchUrl={requests.fetchUpcomingMovies} />
       <Row title={"K-Drama"} fetchUrl={requests.fetchKDrama} />
       <Row title={"C-Drama"} fetchUrl={requests.fetchCDrama} />
       <Row title={"Bollywood"} fetchUrl={requests.fetchBollywood} />

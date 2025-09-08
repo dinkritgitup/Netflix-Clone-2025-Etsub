@@ -12,7 +12,7 @@ const requests ={
     fetchUpcomingMovies: `/movie/upcoming?api_key=${API_KEY}&language=en-US&page=1`,
     fetchKDrama: `/discover/tv?api_key=${API_KEY}&with_origin_country=KR&language=en-US&page=1`,
     fetchCDrama: `/discover/tv?api_key=${API_KEY}&with_origin_country=CN&language=en-US&page=1`,
-    fetchBollywood: `/discover/movie?api_key=${API_KEY}&region=IN&language=en-US&page=1`,
+    fetchBollywood: `/discover/movie?api_key=${API_KEY}&with_origin_country=IN&language=en-US&page=1`,
     fetchAnime: `/discover/tv?api_key=${API_KEY}&with_genres=16&with_origin_country=JP&language=en-US&page=1`
 
 }
