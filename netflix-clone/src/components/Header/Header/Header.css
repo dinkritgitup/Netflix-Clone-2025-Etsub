@@ -26,7 +26,7 @@
     position: relative;
 }
 .header_left ul{
-    width: 140%;
+    width: 190%;
     display: flex;
     align-items: center;
     justify-content: space-between;
